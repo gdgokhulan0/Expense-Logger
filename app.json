@@ -1,28 +1,21 @@
 {
   "expo": {
-    "name": "ExpenseLogger",
-    "slug": "ExpenseLogger",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+   "name": "Expense Logger",
+   "icon": "assets/Logo.png",
+   "splash": {
+    "image": "assets/Splash.png",
+    "backgroundColor": "#000000",
+    "resizeMode": "cover"
+  },
+   "version": "1.0.0",
+   "slug": "Manage_your_Expense_Synchronously",
+   "ios": {
+     "bundleIdentifier": "dev.gdg0.ExpenseLog",
+     "buildNumber": "1.0.0"
+   },
+   "android": {
+     "package": "dev.gdg0.ExpenseLogger",
+     "versionCode": 1
+   }
   }
 }
